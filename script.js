@@ -74,3 +74,13 @@ const sectionObserver = new IntersectionObserver((entries) => {
 }, { rootMargin: '-45% 0px -50% 0px' });
 
 document.querySelectorAll('section').forEach((section) => sectionObserver.observe(section))
+
+
+const user = 'jan';
+const domain = 'example.com';
+const mailEl = document.getElementById('mailLink');
+
+if (mailEl) {
+  mailEl.href = `mailto:${user}@${domain}`;
+  mailEl.textContent = `${user}@${domain}`;
+}
