@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jan Novák – osobní web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Jost:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+
+  <nav id="nav">
+    <a href="#top" class="logo">J. Novák</a>
+    <ul>
+      <li><a href="#o-mne">O mně</a></li>
+      <li><a href="#dovednosti">Dovednosti</a></li>
+      <li><a href="#zkusenosti">Zkušenosti</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero" id="top">
+    <div class="hero-inner" id="heroInner">
+      <h1 id="name" aria-label="Jan Novák">Jan Novák</h1>
+      <div class="line"></div>
+      <p>Vývojář · Praha</p>
+    </div>
+    <div class="scroll-hint">POSUŇ DOLŮ</div>
+  </header>
+
+  <section id="o-mne">
+    <div class="wrap about">
+      <div class="portrait reveal"></div>
+      <div class="reveal">
+        <h2>O mně</h2>
+        <p>Jsem Jan, vytvářím webové aplikace a pracuju s daty. Baví mě jednoduchá řešení, která fungují a dobře vypadají.</p>
+        <p>Tady napiš dvě až tři věty o sobě: čemu se věnuješ, co tě baví a na čem teď pracuješ.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="dovednosti" class="dark">
+    <div class="wrap">
+      <h2 class="reveal">Dovednosti</h2>
+      <div class="skill-item reveal" style="--w:90%">
+        <div class="skill"><span>JavaScript</span></div>
+        <div class="bar"><i></i></div>
+      </div>
+      <div class="skill-item reveal" style="--w:80%">
+        <div class="skill"><span>Python</span></div>
+        <div class="bar"><i></i></div>
+      </div>
+      <div class="skill-item reveal" style="--w:75%">
+        <div class="skill"><span>SQL a datová analýza</span></div>
+        <div class="bar"><i></i></div>
+      </div>
+      <div class="skill-item reveal" style="--w:65%">
+        <div class="skill"><span>Design rozhraní</span></div>
+        <div class="bar"><i></i></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="zkusenosti">
+    <div class="wrap">
+      <h2 class="reveal">Zkušenosti</h2>
+      <div class="timeline">
+        <div class="job reveal">
+          <time>2024 – dnes</time>
+          <h3>Softwarový vývojář, Firma A</h3>
+          <p>Stručně, co děláš a čeho jsi dosáhl.</p>
+        </div>
+        <div class="job reveal">
+          <time>2021 – 2024</time>
+          <h3>Datový analytik, Firma B</h3>
+          <p>Stručně, co děláš a čeho jsi dosáhl.</p>
+        </div>
+        <div class="job reveal">
+          <time>2017 – 2021</time>
+          <h3>Studium, Univerzita C</h3>
+          <p>Obor a zaměření.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontakt" class="dark contact">
+    <div class="wrap">
+      <h2 class="reveal">Napiš mi</h2>
+      <a class="mail reveal" href="mailto:jan@example.com">jan@example.com</a>
+      <div class="links reveal">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>© 2026 Jan Novák</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
